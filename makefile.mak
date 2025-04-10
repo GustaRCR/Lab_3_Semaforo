@@ -1,9 +1,9 @@
 COM=COM10
 BAUDRATE=115200
-PROJECT=avr_semaforo
+PROJECT=Lab_3_Semaforo
 DEVICE=ATmega328P
 
-CC_PATH="C:\Program Files\Microchip\xc8\v3.00\bin"
+CC_PATH="C:\Program Files\Microchip\xc8\v2.45\bin"
 CC="$(CC_PATH)\xc8-cc.exe"
 OBJCP="$(CC_PATH)\avr-objcopy"
 BUILD=build/default/production
